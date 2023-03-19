@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="Ratings"
+    tools:context=".Resturant_details_Eddit">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="@dimen/HoButton_width"
+        android:layout_height="@dimen/HoButton_height"
+        android:backgroundTint="@color/browns"
+        android:text="Browns"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="@dimen/HoButton_width"
+        android:layout_height="@dimen/HoButton_height"
+        android:backgroundTint="@color/Silver"
+        android:text="Silver"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="@dimen/HoButton_width"
+        android:layout_height="@dimen/HoButton_height"
+        android:backgroundTint="@color/Gold"
+        android:text="GOld"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="@dimen/Tittle_bar_width"
+        android:layout_height="@dimen/Tittle_bar_height"
+        android:background="@color/purple_500"
+        android:text="@string/hotel_details"
+        android:textAlignment="center"
+        android:textSize="@dimen/APD_textize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/EBackarrow6"
+        android:layout_width="@dimen/BackArrow_width"
+        android:layout_height="@dimen/BackArrow_height"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="@string/BackArrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="219dp"
+        android:layout_height="62dp"
+        android:text="@string/hotel_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="@dimen/HRatings_width"
+        android:layout_height="@dimen/HRatings_height"
+        android:contentDescription="Ratings"
+        android:contextClickable="false"
+        android:indeterminateTint="#FFFFFF"
+        android:secondaryProgressTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/Light_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:navigationIconTint="@color/Light_blue"
+        tools:ignore="BottomAppBar" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="@dimen/HBottom_Icon_width"
+        android:layout_height="@dimen/HHotel_Button_height"
+        android:backgroundTint="@color/Light_blue"
+        android:contentDescription="vehicle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_drive_eta_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="@dimen/HBottom_Icon_width"
+        android:layout_height="@dimen/HHotel_Button_height"
+        android:backgroundTint="@color/Light_blue"
+        android:contentDescription="Resturant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995"
+        app:srcCompat="@drawable/ic_baseline_hotel_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="@dimen/HBottom_Icon_width"
+        android:layout_height="@dimen/HBottom_Icon_height"
+        android:backgroundTint="@color/Light_blue"
+        android:contentDescription="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="@dimen/HBottom_Icon_width"
+        android:layout_height="@dimen/HHotel_Button_height"
+        android:backgroundTint="@color/Light_blue"
+        android:contentDescription="Guids"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_emoji_people_24" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="@dimen/HName_width"
+        android:layout_height="@dimen/HName_height"
+        android:text="@string/Hratings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="74dp"
+        android:layout_height="22dp"
+        android:text="@string/packageTypes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="@dimen/HoImage_width"
+        android:layout_height="@dimen/HoImage_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104"
+        app:srcCompat="@drawable/icons8_image_96" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="117dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/platinum"
+        android:text="Platinum"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

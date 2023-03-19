@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="viewStart"
+    tools:context=".Payment">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="@dimen/Tittle_bar_width"
+        android:layout_height="@dimen/Tittle_bar_height"
+        android:background="@color/purple_500"
+        android:text="@string/payment_method"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/EBackarrow4"
+        android:layout_width="@dimen/BackArrow_width"
+        android:layout_height="@dimen/BackArrow_height"
+        android:backgroundTint="@color/purple_500"
+        android:contentDescription="@string/BackArrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:text="@string/credit_card"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="@dimen/creditcard_visa_width"
+        android:layout_height="@dimen/creditcard_visa_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/_94654_visa_icon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="@dimen/creditcard_visa_width"
+        android:layout_height="@dimen/creditcard_visa_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/_322426_card_master_master_card_master_card_new_logo_method_icon" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="@dimen/creditcard_img_width"
+        android:layout_height="@dimen/creditcard_img_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232"
+        app:srcCompat="@drawable/_270431" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="@dimen/creditcard_Holder_width"
+        android:layout_height="@dimen/creditcard_holder_height"
+        android:text="@string/card_holder_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="@dimen/creditcard_NumberT_width"
+        android:layout_height="@dimen/creditcard_NumberT_height"
+        android:text="@string/card_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="@dimen/Holder_Date_width"
+        android:layout_height="@dimen/Holder_Date_height"
+        android:text="@string/Date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="@dimen/Holder_Date_width"
+        android:layout_height="@dimen/Holder_Date_height"
+        android:text="@string/cvv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="@dimen/Holder_Name_width"
+        android:layout_height="@dimen/Holder_Name_height"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <EditText
+        android:id="@+id/Card_Number"
+        android:layout_width="@dimen/creditcard_Number_width"
+        android:layout_height="@dimen/creditcard_Number_height"
+        android:contextClickable="false"
+        android:ems="10"
+        android:hint="@string/Credit_Card_Number"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="@dimen/cvv_width"
+        android:layout_height="@dimen/cvv_height"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/Cvv_NO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/SUBMIT_width"
+        android:layout_height="@dimen/SUBMIT_height"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="144dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="@string/Date_No"
+        android:inputType="date"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

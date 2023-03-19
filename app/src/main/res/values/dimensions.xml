@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Adding Package Details
+    <dimen name="APD_textize">28dp</dimen>
+    <dimen name="BackArrow_width">59dp</dimen>
+    <dimen name="BackArrow_height">50dp</dimen>
+    <dimen name="APD_Select_package_width">337dp</dimen>
+    <dimen name="APD_Select_package_height">51dp</dimen>
+    <dimen name="Tittle_bar_width">412dp</dimen>
+    <dimen name="Tittle_bar_height">62dp</dimen>
+    <dimen name="ADP_ADDIcon_width">103dp</dimen>
+    <dimen name="ADP_ADDIcon_height">98dp</dimen>
+    <dimen name="ADP_ADDIcon_Name_width">261dp</dimen>
+    <dimen name="ADP_ADDIcon_Name_height">43dp</dimen>
+    <dimen name="ADP_ADDIcon_text">28dp</dimen>
+    <dimen name="SUBMIT_width">133dp</dimen>
+    <dimen name="SUBMIT_height">55dp</dimen>
+    <dimen name="ADP_Select_Package_type_width">335dp</dimen>
+    <dimen name="ADP_Select_Package_type_height">45dp</dimen>
+
+    //Edit profile
+    <dimen name="EName_width">219dp</dimen>
+    <dimen name="EName_height">65dp</dimen>
+    <dimen name="EEmail_width">219dp</dimen>
+    <dimen name="EEmail_height">57dp</dimen>
+    <dimen name="EPassword_width">223dp</dimen>
+    <dimen name="EPassword_height">69dp</dimen>
+    <dimen name="ESubmit_width">143dp</dimen>
+    <dimen name="ESUbmit_height">48dp</dimen>
+
+
+    //Home
+    <dimen name="HImage_width">411dp</dimen>
+    <dimen name="HImage_height">211dp</dimen>
+    <dimen name="HHotel_Button_width">389dp</dimen>
+    <dimen name="HHotel_Button_height">52dp</dimen>
+    <dimen name="HBottom_Icon_width">61dp</dimen>
+    <dimen name="HBottom_Icon_height">54dp</dimen>
+
+    //Hotel Details
+    <dimen name="HName_width">53dp</dimen>
+    <dimen name="HName_height">24dp</dimen>
+    <dimen name="HRatings_width">238dp</dimen>
+    <dimen name="HRatings_height">48dp</dimen>
+    <dimen name="HoImage_width">409dp</dimen>
+    <dimen name="HoImage_height">134dp</dimen>
+    <dimen name="HoButton_width">117dp</dimen>
+    <dimen name="HoButton_height">51dp</dimen>
+
+
+    //Package Details
+    <dimen name="pName_width">189dp</dimen>
+    <dimen name="pName_height">37dp</dimen>
+    <dimen name="pphoto_width">50dp</dimen>
+    <dimen name="pphoto_height">49dp</dimen>
+    <dimen name="pfacilities_width">84dp</dimen>
+    <dimen name="pfacilities_height">29dp</dimen>
+    <dimen name="seemore_width">80dp</dimen>
+    <dimen name="seemore_height">17dp</dimen>
+    <dimen name="addmore_width">63dp</dimen>
+    <dimen name="addmore_height">56dp</dimen>
+    <dimen name="PackageNAme_width">74dp</dimen>
+    <dimen name="PackageNAme_height">46dp</dimen>
+
+    //Login Page
+    <dimen name="LoginImg_width">409dp</dimen>
+    <dimen name="LoginImg_height">244dp</dimen>
+    <dimen name="Logintoyour_width">158dp</dimen>
+    <dimen name="Logintoyour_height">28dp</dimen>
+    <dimen name="LoginEmail_width">233dp</dimen>
+    <dimen name="LoginEmail_height">50dp</dimen>
+    <dimen name="LoginSignin_width">216dp</dimen>
+    <dimen name="LoginSignin_height">52dp</dimen>
+
+    //Startup Page
+    <dimen name="StartupImg_width">386dp</dimen>
+    <dimen name="StartupImg_height">473dp</dimen>
+    <dimen name="StartupClickme_width">148dp</dimen>
+    <dimen name="StartupClickme_height">62dp</dimen>
+
+    //Payment
+    <dimen name="creditcard_width">159dp</dimen>
+    <dimen name="creditcard_height">51dp</dimen>
+    <dimen name="creditcard_visa_width">53dp</dimen>
+    <dimen name="creditcard_visa_height">31dp</dimen>
+    <dimen name="creditcard_img_width">244dp</dimen>
+    <dimen name="creditcard_img_height">154dp</dimen>
+    <dimen name="creditcard_Holder_width">219dp</dimen>
+    <dimen name="creditcard_holder_height">27dp</dimen>
+    <dimen name="Holder_Name_width">274dp</dimen>
+    <dimen name="Holder_Name_height">52dp</dimen>
+    <dimen name="creditcard_NumberT_width">219dp</dimen>
+    <dimen name="creditcard_NumberT_height">27dp</dimen>
+    <dimen name="creditcard_Number_width">257dp</dimen>
+    <dimen name="creditcard_Number_height">52dp</dimen>
+    <dimen name="Holder_Date_width">146dp</dimen>
+    <dimen name="Holder_Date_height">26dp</dimen>
+    <dimen name="Date_no_width">144dp</dimen>
+    <dimen name="Date_no_height">57dp</dimen>
+    <dimen name="cvv_width">181dp</dimen>
+    <dimen name="cvv_height">54dp</dimen>
+
+    //Update Hotel Details
+    <dimen name="Hotel_Name_width">84dp</dimen>
+    <dimen name="Hotel_Name_height">24dp</dimen>
+    <dimen name="Hotel_Name_box_width">217dp</dimen>
+    <dimen name="Hotel_Name_box_height">50dp</dimen>
+    <dimen name="Spiner_width">272dp</dimen>
+    <dimen name="Spiner_height">50dp</dimen>
+    <dimen name="Spiner_text_width">136dp</dimen>
+    <dimen name="Spiner_text_height">19dp</dimen>
+
+    //Signup page
+    <dimen name="signupimg_width">412dp</dimen>
+    <dimen name="signupimg_height">259dp</dimen>
+    <dimen name="signupcreate_width">154dp</dimen>
+    <dimen name="signupcreate_height">24dp</dimen>
+    <dimen name="signupName_width">275dp</dimen>
+    <dimen name="signupName_height">69dp</dimen>
+
+    //User Profile
+    <dimen name="userimg_width">132dp</dimen>
+    <dimen name="userimg_height">121dp</dimen>
+    <dimen name="userimg_Edditimg_width">79dp</dimen>
+    <dimen name="userimg_Edditimg_height">74dp</dimen>
+    <dimen name="user_Eddit_width">126dp</dimen>
+    <dimen name="user_Eddit_height">34dp</dimen>
+    <dimen name="forwardarrow_width">77dp</dimen>
+    <dimen name="forwardarrow_height">63dp</dimen>
+    <dimen name="Pname_width">200dp</dimen>
+    <dimen name="Pname_height">52dp</dimen>
+
+
+
+
+</resources>
